@@ -11,7 +11,7 @@
   <body>
     <header>
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg bg-light mb-5 sticky-top">
+      <nav class="navbar navbar-expand-lg bg-light fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="images/logo.png" alt="" class="img-fluid" />
@@ -33,13 +33,13 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Shoes</a>
+                <a class="nav-link" href="#shoes">Shoes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link href='#">Backpack</a>
+                <a class="nav-link" href="#backpack">Backpack</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link href='#">Subscribe</a>
+                <a class="nav-link" href="#subscribe">Subscribe</a>
               </li>
             </ul>
           </div>
@@ -47,7 +47,7 @@
       </nav>
 
       <!-- Banner -->
-      <section class="my-5 container">
+      <section class="mb-5 container" style="margin-top: 100px">
         <div
           id="carouselExampleControls"
           class="carousel slide"
@@ -174,7 +174,7 @@
       </section>
 
       <!-- Shoes Section -->
-      <section class="my-5">
+      <section id="shoes" class="my-5">
         <h2>Shoes</h2>
         <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-3">
           <div class="col">
@@ -217,7 +217,7 @@
       </section>
 
       <!-- Backpack Section -->
-      <section class="my-5">
+      <section id="backpack" class="my-5">
         <h2>Backpack</h2>
         <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-3">
           <div class="col">
@@ -263,6 +263,7 @@
 
       <!-- Subscribe Section -->
       <section
+        id="subscribe"
         class="my-5 bg-secondary d-flex align-items-center justify-content-center p-5"
       >
         <div>
@@ -278,7 +279,7 @@
         </div>
       </section>
     </main>
-    <footer class="text-center">
+    <footer class="text-center mb-3">
       ©2022. Panda Commerce. All rights reserved. Sofia, Bulgaria.
     </footer>
     <!-- JavaScript Bundle with Popper -->
