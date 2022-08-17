@@ -23,3 +23,8 @@ emailField.addEventListener("keyup", (e) => {
     }
 });
 // Background color change
+const subscribe = document.querySelector("#subscribe");
+subscribe.addEventListener("dblclick", () => {
+    subscribe.classList.remove("bg-secondary");
+    subscribe.style.backgroundColor = "orange";
+});
