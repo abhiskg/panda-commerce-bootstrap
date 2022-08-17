@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="css/main.min.css" />
     <title>Panda-Commerce</title>
+    <script src="script.js" defer></script>
   </head>
   <body>
     <header>
@@ -272,10 +273,16 @@
           <input
             type="email"
             class="form-control"
-            id="exampleInputEmail1"
+            id="email-field"
             aria-describedby="emailHelp"
           />
-          <button class="btn btn-primary text-light mt-2">SUBMIT</button>
+          <button
+            disabled
+            id="submit-btn"
+            class="btn btn-primary text-light mt-2"
+          >
+            SUBMIT
+          </button>
         </div>
       </section>
     </main>
